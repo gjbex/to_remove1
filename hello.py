@@ -1,3 +1,5 @@
 #!/usr/bin/env python
 
-print('hello nice world!')
+import sys
+
+print(f'hello nice {sys.argv[1]}!')
